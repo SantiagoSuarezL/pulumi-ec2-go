@@ -1,0 +1,7 @@
+name: ec2-pulumi-go
+description: ec2 pracite using go and pulumi
+runtime: go
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-go
